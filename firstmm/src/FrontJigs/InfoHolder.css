@@ -1,0 +1,89 @@
+.holder {
+    position: absolute;
+    top: 60px; /* Below the navbar */
+    height: calc(100vh - 60px); /* Full height minus the navbar */
+    background-color: rgb(255, 255, 255); /* Background color */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    padding: 20px; /* Optional padding for aesthetics */
+    box-sizing: border-box; /* Include padding in width calculations */
+    transition: width 0.9s ease, left 0.9s ease; /* Smooth resizing effect */
+}
+
+/* Styles when the dashboard is open */
+.holder.open {
+    left: 240px; /* Take space next to the open dashboard */
+    width: calc(100% - 240px); /* Width minus the dashboard width */
+}
+
+/* Styles when the dashboard is closed */
+.holder.closed {
+    left: 60px; /* Align next to the menu strip */
+    width: calc(100% - 60px); /* Full width minus the menu strip */
+}
+
+/* Grid layout for home section */
+.holder .home {
+    display: grid;                          /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-gap: 20px;                        /* Space between cards */
+    padding-left: 20px;                    /* Add left padding to prevent sticking */
+}
+
+
+
+/* Style for individual cards */
+.card {
+    background: lightgray; /* Background color for cards */
+    padding: 20px;        /* Padding inside cards */
+    border-radius: 5px;   /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;        /* Flexbox for card content */
+    flex-direction: column; /* Column layout for card content */
+    justify-content: space-between; /* Space between items */
+}
+.holder .progress {
+    position: absolute; /* Position it absolutely within the holder */
+    top: 0;             /* Align to the top */
+    left: 0;            /* Align to the left */
+    width: 100%;        /* Full width */
+    height: 100%;       /* Full height */
+    display: flex;      /* Use flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: rgb(24, 255, 255); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 2em;
+}
+.holder .visit-map-container { /* Fixed typo */
+    position: absolute; /* Position it absolutely within the holder */
+    top: 0;             /* Align to the top */
+    left: 0;            /* Align to the left */
+    width: 100%;        /* Full width */
+    height: 100%;       /* Full height */
+
+    background-color: rgb(255, 255, 255); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 2em;
+    overflow-y: auto;
+
+}
+
+
+  
+  .progress-item {
+    margin-bottom: 15px; /* Space between progress items */
+    border-bottom: 1px solid #ddd; /* Optional: add a divider */
+    padding-bottom: 10px;
+  }
+  
+
+  .user-container{
+    width : 97%;
+    height : 90%;
+  }
+
+
+.Author{
+    justify-content: center;
+    align-items: center;
+}

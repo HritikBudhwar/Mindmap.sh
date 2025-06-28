@@ -1,0 +1,103 @@
+/* Container for the dashboard */
+.container {
+    position: fixed;
+    top: 60px; /* Set top to the height of the navbar */
+    left: -350px; /* Initially hidden off-screen */
+    width: 200px; /* Width of the dashboard */
+    height: calc(100vh - 60px); /* Full height minus the navbar's height */
+    background-color: #bd9aec;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    transition: left 0.9s ease; /* Smooth slide-in effect */
+  }
+  
+  
+  /* When the menu is open */
+  .container.open {
+    left: 0; /* Slide in to be fully visible */
+  }
+  
+  /* Small strip for menu button */
+  .menu-strip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 10; /* Ensure the menu strip is always on top */
+  }
+  
+  .menu-strip:hover {
+    background-color: #7b5cbf;
+  }
+  
+  /* Row flex for aligning icons and text */
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  .row h1{
+    margin-left: 10px;
+  }
+  .row p{
+    margin-left: 10px;
+  }
+  .row:hover {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  /* Style for the heading */
+  .row h1 {
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    margin: 0;
+  }
+  
+  /* Style for the icon and its corresponding text */
+  .other-map{
+    font-size: 1.2rem;
+    color: #555;
+    margin-left: 15px;
+    margin: 0;
+  }
+  
+  /* Style for the icons */
+  svg {
+    vertical-align: middle;
+    color: #4a4a4a;
+  }
+  
+  /* Adjusting hover effect for icons and text */
+  svg:hover, p:hover {
+    color: #7b5cbf;
+  }
+  
+
+/* Profile Section */
+.profile-section {
+  margin-top: auto; /* Pushes the section towards the bottom */
+  width: 100%; /* Full width */
+  padding-bottom: 30px; /* Add padding to lift it slightly from the bottom */
+}
+
+.profile-section .row {
+  padding-top: 15px; /* Add some spacing */
+  border-top: 1px solid #ddd; /* Optional: Add a separator line */
+}

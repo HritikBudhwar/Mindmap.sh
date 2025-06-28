@@ -1,0 +1,85 @@
+.container-other {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .other-side-bar {
+    width: 25vw; /* Takes 25% of the viewport width */
+    background-color: #f0f0f0; /* Light gray background for visibility */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items at the top */
+    padding: 20px;
+  }
+  
+  .username11 {
+    font-size: 2rem; /* Make the username larger */
+    font-weight: bold; /* Make the username bold */
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 20px; /* Add space below the username */
+  }
+  
+  .profile-image img {
+    width: 200px; /* Increased size for the image */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circular area */
+    margin-bottom: 20px; /* Adds space below the image */
+  }
+  
+  .cards-viewing {
+    width: 75vw; /* Takes 75% of the viewport width */
+    background-color: #ffffff; /* White background for cards */
+    padding: 20px;
+    overflow-y: auto; /* Enables scrolling if content exceeds height */
+  }
+  
+  .other-card {
+    background-color: #e9ecef; /* Light gray for card background */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer; /* Makes it clear that the card is clickable */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+  }
+  
+  .other-card:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+  }
+  
+  .other-card h3 {
+    margin: 0 0 10px; /* Space below the title */
+  }
+  
+  .other-card p {
+    margin: 0;
+  }
+  
+  .card-button {
+    margin-top: 10px;
+  }
+  
+  .import-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .import-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .import-button:active {
+    background-color: #003f7f;
+  }
+  
+
+  

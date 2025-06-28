@@ -1,0 +1,142 @@
+.user-profile {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow-x: auto;
+  overflow-wrap: normal;
+}
+
+.profile-photo-container {
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #bd9aec;
+}
+
+.user-details {
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.email {
+  font-size: 1rem;
+  color: #777;
+}
+
+.stats {
+  font-size: 1rem;
+  color: #555;
+}
+
+.description-in-profile:hover {
+  cursor: pointer;
+}
+
+.modal1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(75, 255, 120);
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal1.open {
+  opacity: 1;
+}
+
+.modal1-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rando {
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texty {
+  position: relative;
+  width: 100%;
+  padding-right:0px;
+  margin-left: -5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  justify-content: center;
+  resize: none;
+}
+
+.texty:focus {
+  outline: none;
+  border-color: #bd9aec;
+}
+
+.modal1-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.modal1-buttons button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  flex: 1;
+}
+
+/* Save Button */
+.modal1-buttons button:nth-child(1) {
+  background-color: #1d8eff;
+  color: white;
+}
+
+.modal1-buttons button:nth-child(1):hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+/* Cancel Button */
+.modal1-buttons button:nth-child(2) {
+  background-color: #f44336;
+  color: white;
+}
+
+.modal1-buttons button:nth-child(2):hover {
+  background-color: #e41e28;
+  transform: translateY(-2px);
+}

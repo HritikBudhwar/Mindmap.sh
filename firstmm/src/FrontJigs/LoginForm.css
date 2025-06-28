@@ -1,0 +1,134 @@
+/* LoginForm.css */
+
+/* Reset default styles */
+
+.r{
+    background-color: #a3fffa;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: #b5fff6;
+}
+
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child {
+    background: linear-gradient(#1845ad, #23a2f6);
+    left: -80px;
+    top: -80px;
+}
+
+.shape:last-child {
+    background: linear-gradient(to right, #ff512f, #f09819);
+    right: -30px;
+    bottom: -80px;
+}
+
+.login-form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+.login-form * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.login-form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    
+}
+
+.login-form label {
+    
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.login-form #username {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: medium;
+    font-weight: 300;
+}
+.login-form #password {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.login-form ::placeholder {
+    color: #757575;
+}
+
+.login-form button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.signup-button{
+    padding: 10px;
+    margin-top: 20px;
+}
+.signup-link {
+  color: blue; /* Change color as needed */
+  text-decoration: underline; /* Underline or remove if not needed */
+  cursor: pointer; /* Change cursor to pointer on hover */
+
+}
+
+.signup-link:hover {
+  color: darkblue; /* Change color on hover */
+}
+  

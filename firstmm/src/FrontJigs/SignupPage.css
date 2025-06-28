@@ -1,0 +1,96 @@
+.r {
+    background-color: #a3fffa;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.signup-container {
+    width: 430px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    padding: 50px 35px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.signup-container * {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #000000;
+    outline: none;
+    border: none;
+    letter-spacing: 0.5px;
+}
+
+.signup-container h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.form-group input::placeholder {
+    color: #757575;
+}
+
+.signup-button-2 {
+    margin-top: 40px;
+    width: 100%;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-link-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-link:hover {
+    color: darkblue;
+}

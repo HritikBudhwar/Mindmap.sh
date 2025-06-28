@@ -1,0 +1,42 @@
+.cards-container-visit-Map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    grid-gap: 20px;
+    padding: 20px; /* Remove any padding to avoid pushing items down */
+    align-items: start; /* Align items to the top */
+    
+    min-height: 200px; /* Ensure there's enough height */
+}
+
+.card-visit-map {
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top of the card */
+    align-items: center;
+    padding: 15px; /* Keep padding for content within the card */
+    cursor: pointer;
+}
+
+.card-visit-map:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-visit-map h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-visit-map p {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+}
