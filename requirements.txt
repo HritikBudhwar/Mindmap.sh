@@ -1,0 +1,20 @@
+node>=18
+npm>=9
+
+# Frontend dependencies (from package.json)
+@xyflow/react@^12.3.5
+bcrypt@^5.1.1
+express@^4.21.1
+lucide-react@^0.460.0
+mdb-react-ui-kit@^9.0.0
+mongoose@^8.8.2
+multer@^1.4.5-lts.1
+react-bootstrap@^2.10.5
+react-router-dom@^6.28.0
+
+# Backend dependencies (from backend/package.json)
+axios@^1.7.7
+body-parser@^1.20.3
+cors@^2.8.5
+dotenv@^16.4.5
+nodemon@^3.1.7
