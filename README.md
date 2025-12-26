@@ -47,3 +47,9 @@ npm run dev
 
 ## Contact / Next Steps
 If you'd like, I can prepare a demo script, add CI, or containerize the app with Docker.
+
+## GitHub Stats
+
+- [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HritikBudhwar&show_icons=true&theme=dark)](https://github.com/HritikBudhwar)
+- [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HritikBudhwar&layout=compact&theme=dark)](https://github.com/HritikBudhwar)
+- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=HritikBudhwar&theme=dark)](https://git.io/streak-stats)
